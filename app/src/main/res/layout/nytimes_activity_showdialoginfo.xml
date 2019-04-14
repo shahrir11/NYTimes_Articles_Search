@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nytimes_formal_logo"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="40dp"
+        android:src="@drawable/nytimes_color_logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/info1"
+        android:layout_below="@id/nytimes_formal_logo"
+        android:text="The New York Times Article Search"
+        android:fontFamily="sans-serif-black"
+        android:textAlignment="center"
+        android:textColor="@color/colorred"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/info2"
+        android:layout_below="@id/info1"
+
+        android:text="CST2335: Final Project"
+        android:fontFamily="sans-serif-black"
+        android:textAlignment="center"
+        android:textColor="@color/colorred"
+        android:textSize="22dp"
+        />
+
+    <TextView
+        android:id="@+id/info3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info2"
+
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Developed By: Shahrir Ahmed"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/info4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info3"
+
+        android:layout_marginTop="48dp"
+        android:fontFamily="sans-serif-black"
+        android:text="This APP is for searching, reading and saving news articles from New York Times website."
+        android:textAlignment="center"
+        android:textColor="@color/colorblue"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

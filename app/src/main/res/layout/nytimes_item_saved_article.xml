@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:id="@+id/image_viewer1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:scaleType="centerCrop"
+
+        app:layout_constraintBottom_toTopOf="@+id/title_btn_txtviewer"
+        app:layout_constraintDimensionRatio="2:1"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/nytimes_colored_logo_orange" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titlebutton1"
+        android:orientation="horizontal"
+
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/image_viewer1"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title1"
+            android:layout_alignParentLeft="true"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:text="Show text here...." />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

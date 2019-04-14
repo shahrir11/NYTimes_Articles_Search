@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Recherche de articles sur NYTimes</string>
+    <string name="text_main">NY</string>
+    <string name="hint_text">Texte de recherche...</string>
+    <string name="forsavingsarticles">Liste de articles sauvegardés </string>
+    <string name="search">Chercher</string>
+    <string name="article_searching">recherche... </string>
+    <string name="title">Recherche de articles sur NYTimes</string>
+    <string name="title1">CST2335 Graphical Interface Programming Final Group Project</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="action_about">Sur</string>
+    <string name="title_activity_article">ArticleActivité</string>
+    <string name="searchHint">Rechercher un mot…</string>
+    <string name="saveButton">sauvegarder</string>
+    <string name="searchButton">Aller</string>
+    <string name="proceed_confirm" >Cela redirigera vers le site Web de NYTimes. Procéder?</string>
+    <string name="nytimes_info1" >The New York Times Article Search</string>
+    <string name="nytimes_info2" >Mobile Graphical Interface Programming - CST2335</string>
+    <string name="nytimes_info3" >Version 1.3: 11 avril 2019</string>
+    <string name="nytimes_info4">Developed By: Shahrir Ahmed</string>
+    <string name="nytimes_info5">
+Cette application est pour la recherche, la lecture et la sauvegarde des articles du site Web du New York Times..</string>
+
+    <string name="nytimes_welcome">Recherche de articles sur NYTimes</string>
+    <string name="article_ok">Deaccord</string>
+    <string name="article_cancel">Annuler</string>
+    <string name="delete_button">Annuler</string>
+
+    <string name="article_saving">AArticle enregistré avec succès</string>
+    <string name="delete">Effacer</string>
+</resources>
